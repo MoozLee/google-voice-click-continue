@@ -2,7 +2,7 @@
 //How much loop Time needed
 var loopTimes=5000;
 //Sleep between each loop
-var sleepMicroSecond=31050;
+var sleepMicroSecond=3105;
 
  
 
@@ -43,6 +43,7 @@ function myLoop () {           //  create a loop function
    setTimeout(function () {    //  call a 3s setTimeout when the loop is called
            //  your code here
       i++;                     //  increment the counter
+	   console.log(i);
       if (i < loopTimes) {            //  if the counter < 10, call the loop function
          myLoop();             //  ..  again which will trigger another  
 		 c();		//  Main function
