@@ -1,8 +1,8 @@
  
 //How much loop Time needed
-var loopTimes=5000;
+var loopTimes=50000;
 //Sleep between each loop
-var sleepMicroSecond=3105;
+var sleepMicroSecond=1105;
 
  
 
